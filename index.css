@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://ese224.seas.upenn.edu/wp-content/uploads/2018/11/background-website-light-blue-wallpapers-background-2.jpg);
+    
+}
+
+button{
+    margin-left: 575px;
+    border: solid rgb(171, 171, 255) 5px;
+    border-radius: 10px;
+    background-color: rgb(132, 204, 245);
+}
+.picture{
+    height: 372px;
+    width: 401px;
+    margin-top: 90px;
+    animation-name: up;
+    animation-duration: 5s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+@keyframes up{
+    0%{
+        margin-top: 600px;
+       opacity: 0;
+    }
+    50%{
+        margin-top: 600px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 100px;
+        opacity: 1;
+    }
+
+}
+
+

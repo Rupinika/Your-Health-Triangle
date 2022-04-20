@@ -1,0 +1,17 @@
+nav{
+    
+    padding: 5px;
+
+}
+nav a{
+    text-decoration: none;
+    color: lavenderblush;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+nav a:hover{
+    color: rgb(22, 2, 12);
+    
+}
